@@ -1,0 +1,78 @@
+.container{
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+img{
+    width: 100%;height: 100%;
+    object-fit: cover;
+}
+
+.card{
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid silver;
+}
+.card-image{
+    width: 250px;
+    height: 250px;
+    border: 2px solid silver;
+    margin-bottom: 10px;
+    position: relative;
+}
+.delite-photo{
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
+.add-pdf__file{
+    display: none;
+}
+.add-file{
+    display: none;
+}
+.imag{
+    display: none;
+}
+.card-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.card-btns{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.del{
+    display: none;
+}
+.remove-card{
+    text-align: center;
+}
+
+.download-file{
+    padding: 5px;
+    border: 1px solid tomato;
+}
+
+.input-err{
+    border: 1px solid red;
+}
+
+.disbl{
+    pointer-events: none; 
+}
